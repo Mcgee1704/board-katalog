@@ -1,0 +1,6 @@
+.local/
+.handoff/
+.env
+.env.*
+*.bin
+*.log

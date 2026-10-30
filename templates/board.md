@@ -1,45 +1,45 @@
-# Hersteller Modell Variante
+# Manufacturer Model Variant
 
-## Identifikation
+## Identification
 
-| Feld | Angabe |
+| Field | Value |
 | --- | --- |
-| Hersteller | nicht erfasst |
-| Exaktes Modell und Variante | nicht erfasst |
-| Artikelnummer oder SKU | nicht erfasst |
-| Platinenrevision | nicht erfasst |
-| Führendes technisches Repository | nicht erfasst |
-| Datum der letzten Bearbeitung | nicht erfasst |
+| Manufacturer | not recorded |
+| Exact model and variant | not recorded |
+| Part number or SKU | not recorded |
+| PCB revision | not recorded |
+| Primary technical repository | not recorded |
+| Last updated | not recorded |
 
-## Technische Daten
+## Technical specifications
 
-Herstellerangaben mit Quellen belegen. Unbekannte Werte offenlassen.
+Support manufacturer statements with sources. Leave unknown values explicitly unresolved.
 
-| Merkmal | Angabe | Quelle |
+| Feature | Value | Source |
 | --- | --- | --- |
-| Mikrocontroller | nicht erfasst | nicht erfasst |
-| Flash und RAM/PSRAM | nicht erfasst | nicht erfasst |
-| Versorgung und Logikpegel | nicht erfasst | nicht erfasst |
-| Schnittstellen | nicht erfasst | nicht erfasst |
-| Anschlüsse und Pinbelegung | nicht erfasst | nicht erfasst |
-| Besondere Bauteile und Isolation | nicht erfasst | nicht erfasst |
-| Programmierung und Bootmodus | nicht erfasst | nicht erfasst |
+| Microcontroller | not recorded | not recorded |
+| Flash and RAM/PSRAM | not recorded | not recorded |
+| Power and logic levels | not recorded | not recorded |
+| Interfaces | not recorded | not recorded |
+| Connectors and pinout | not recorded | not recorded |
+| Special components and isolation | not recorded | not recorded |
+| Programming and boot mode | not recorded | not recorded |
 
-## Eigenes Exemplar
+## Owner unit
 
-| Merkmal | Befund | Nachweis |
+| Item | Finding | Evidence |
 | --- | --- | --- |
-| Modell und Revision | nicht erfasst | nicht erfasst |
-| Chip- und Speicherkennung | nicht erfasst | nicht erfasst |
-| Sichtbare Bestückung und Jumper | nicht erfasst | nicht erfasst |
-| Bestehende Firmware, soweit bekannt | nicht erfasst | nicht erfasst |
+| Model and revision | not recorded | not recorded |
+| Chip and memory identification | not recorded | not recorded |
+| Visible assembly and jumpers | not recorded | not recorded |
+| Existing firmware, if known | not recorded | not recorded |
 
-Keine öffentlichen MAC-Adressen, Seriennummern, Zugangsdaten oder Flashabbilder eintragen.
+Do not publish MAC addresses, serial numbers, credentials or flash images.
 
-## Quellen und offene Punkte
+## Sources and unresolved items
 
-- Herstellerseite, Schaltplan und Datenblätter: nicht erfasst.
-- Git-Quellen mit Commit und Lizenzhinweis: nicht erfasst.
-- Widersprüche, fehlende Nachweise und nächste Erfassungsschritte: nicht erfasst.
+- Manufacturer page, schematic and datasheets: not recorded.
+- Git sources with commit and license notes: not recorded.
+- Conflicting descriptions, missing evidence and next collection steps: not recorded.
 
-Falls eigene Funktionsprüfungen vorliegen, deren Umfang und Ergebnis getrennt ergänzen. Die Boardaufnahme selbst verlangt keine Gegenstellentests.
+If functional tests exist, add their scope and results separately. Catalog inclusion does not require counterpart testing.

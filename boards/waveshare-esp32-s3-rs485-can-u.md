@@ -1,15 +1,15 @@
 # Waveshare ESP32-S3-RS485-CAN-U
 
-| Feld | Eintrag |
+| Field | Entry |
 | --- | --- |
-| Hersteller | Waveshare |
-| Modell und Variante | ESP32-S3-RS485-CAN-U |
-| Führende technische Dokumentation | [Board-Repository](https://github.com/Mcgee1704/waveshare-esp32-s3-rs485-can-u) |
-| Erfassungsstand des eigenen Exemplars | [Aktueller Stand im Board-Repository](https://github.com/Mcgee1704/waveshare-esp32-s3-rs485-can-u/blob/main/docs/05-own-board.md) |
-| Pinbelegung | [Anschlüsse und GPIOs](https://github.com/Mcgee1704/waveshare-esp32-s3-rs485-can-u/blob/main/docs/02-pinout.md) |
-| Quellen | [Herstellerunterlagen und weitere Quellen](https://github.com/Mcgee1704/waveshare-esp32-s3-rs485-can-u/blob/main/sources/README.md) |
-| Katalogeintrag angelegt | 19.10.2026 |
+| Manufacturer | Waveshare |
+| Model and variant | ESP32-S3-RS485-CAN-U |
+| Primary technical documentation | [Board repository](https://github.com/Mcgee1704/waveshare-esp32-s3-rs485-can-u) |
+| Evidence status of the owner unit | [Current record in the board repository](https://github.com/Mcgee1704/waveshare-esp32-s3-rs485-can-u/blob/main/docs/05-own-board.md) |
+| Pinout | [Connectors and GPIOs](https://github.com/Mcgee1704/waveshare-esp32-s3-rs485-can-u/blob/main/docs/02-pinout.md) |
+| Sources | [Manufacturer documents and other sources](https://github.com/Mcgee1704/waveshare-esp32-s3-rs485-can-u/blob/main/sources/README.md) |
+| Catalog entry created | 2026-10-19 |
 
-Die technischen Angaben werden im verlinkten Board-Repository gepflegt. Dieser Eintrag dient als zentraler Zugang und führt keine zweite, unabhängig gepflegte Pinliste.
+Technical specifications are maintained in the linked board repository. This entry provides the central access point rather than a second independently maintained pin list. The catalog text has been translated into English; the linked S3 repository has its own documentation language and is maintained separately.
 
-[Zurück zum Katalog](../README.md)
+[Back to catalog](../README.md)

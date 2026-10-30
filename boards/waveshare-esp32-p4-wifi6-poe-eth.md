@@ -1,53 +1,56 @@
 # Waveshare ESP32-P4-WIFI6-POE-ETH
 
-## Identifikation
+## Identification
 
-| Feld | Angabe |
+| Field | Value |
 | --- | --- |
-| Hersteller | Waveshare |
-| Modell | ESP32-P4-WIFI6-POE-ETH mit P4-Core und C6-Funkcoprozessor |
-| Verkaufspakete | Basic SKU 32832; C 32833; D 32834. Zubehörpaket der eigenen Exemplare nicht erfasst |
-| Eigene Exemplare | Zwei; im Katalog als Board 1 und Board 2 bezeichnet |
-| Siliziumrevision | Beide ESP32-P4 v1.3 ausgelesen; Platinenrevision weiterhin offen |
-| Führende technische Dokumentation | [P4-Board-Repository](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth) |
-| Katalogstand | 30.10.2026; vorhandene eigene Nachweise vom 29.10.2026 ausgewertet |
+| Manufacturer | Waveshare |
+| Model | ESP32-P4-WIFI6-POE-ETH with P4-Core and C6 wireless coprocessor |
+| Sales kits | Basic SKU 32832; C 32833; D 32834. Owner accessory kit not established |
+| Owner units | Two; referred to as Board 1 and Board 2 |
+| Silicon revision | Both ESP32-P4 v1.3 read out; PCB revision unresolved |
+| Primary technical documentation | [P4 board repository](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth) |
+| Catalog status | 2026-10-30; existing owner evidence from 2026-10-29 reviewed |
 
-## Technische Daten und Detaildokumentation
+## Specifications and detailed documentation
 
-| Thema | Zusammenfassung | Führende Details |
+| Topic | Summary | Primary reference |
 | --- | --- | --- |
-| Prozessor | Dual-Core-RISC-V-P4; 360 MHz im Boardprofil und bisherigen Aufbau; LP-Kern bis 40 MHz | [Hardware](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/01-hardware.md) |
-| Speicher | P4-Flash 32 MiB, PSRAM 32 MiB; eigene Starttests erfolgreich | [Eigene Boards](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/05-own-boards.md) |
-| Funk | Wi-Fi 6 / BLE über C6 und SDIO; nicht vom P4 selbst bereitgestellt | [Hardware und Bestückungsunterschiede](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/01-hardware.md) |
-| Ethernet | IP101GRI, RMII, 100-Mbit/s-Port; PoE-Modulanschluss | [Programmierung](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/04-firmware.md) |
-| USB | USB-C: Versorgung und CH343P-UART; USB-A: nativer P4-HS-OTG-Port | [USB und Boot](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/04-firmware.md) |
-| Anschlüsse | 40-poliger Header mit 28 GPIO-Netzen, I2C, UART, MicroSD, MIPI-DSI/CSI, Mikrofon und Lautsprecher | [Alle erfassten Kontakte und GPIO-Konflikte](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/02-pinout.md) |
-| Versorgung | USB-C 5 V, 5-V-Anschluss und PoE-Pfad; H1/H2-Versorgung per H5 wählbar; 3,3-V-Logik | [Versorgung und Strombudgets](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/03-power.md) |
-| Audio | ES8311-Codec, NS4150B-Verstärker, H4 als differenzieller Ausgang | [Hardware](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/01-hardware.md) |
-| Mechanik | Herstellerzeichnung: 55 × 68 mm, Lochmitten 48 × 33 mm; nicht selbst vermessen | [Quellenregister](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/sources/README.md) |
-| Firmwaregrundlage | Eigener belegter Stand ESP-IDF 5.5.4 und Rev-1.x-Konfiguration | [Projektprofil](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/04-firmware.md) |
-| Weitere Projekte | Herstellerplattform, ESP-IDF, ESP-Hosted/MCU, zwei KVM-Projekte und eigene Cluster-Forschung | [Git-Projekte mit Commitständen](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/06-git-projects.md) |
-| Strukturierte Daten | JSON, 94 Anschlusskontakte und GPIO0–54 mit Nutzung/Konflikten | [Board-JSON](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/data/board.json), [Pin-CSV](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/data/pinout.csv), [GPIO-CSV](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/data/gpio-usage.csv) |
+| Processor | Dual-core RISC-V P4; 360 MHz in the board profile and existing setup; LP core up to 40 MHz | [Hardware](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/01-hardware.md) |
+| Memory | P4 flash 32 MiB, PSRAM 32 MiB; owner startup tests passed | [Owner boards](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/05-own-boards.md) |
+| Wireless | Wi-Fi 6 / BLE through C6 and SDIO; not integrated in the P4 | [Hardware and assembly differences](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/01-hardware.md) |
+| Ethernet | IP101GRI, RMII, 100-Mbit/s port; PoE module interface | [Programming](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/04-firmware.md) |
+| USB | USB-C: power and CH343P UART; USB-A: native P4 HS OTG | [USB and boot](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/04-firmware.md) |
+| Connectors | 40-pin header with 28 GPIO nets, I2C, UART, MicroSD, MIPI-DSI/CSI, microphone and speaker | [Contacts and GPIO conflicts](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/02-pinout.md) |
+| Power | USB-C 5 V, 5-V connector and PoE path; H1/H2 supply selected through H5; 3.3-V logic | [Power and current budgets](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/03-power.md) |
+| Audio | ES8311 codec, NS4150B amplifier, H4 differential output | [Hardware](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/01-hardware.md) |
+| Mechanics | Manufacturer drawing: 55 × 68 mm, mounting centres 48 × 33 mm; not measured by the owner | [Source register](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/sources/README.md) |
+| Firmware basis | Existing verified setup: ESP-IDF 5.5.4, revision-1.x configuration | [Project profile](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/04-firmware.md) |
+| Other projects | Manufacturer platform, ESP-IDF, ESP-Hosted/MCU, two KVM projects and owner cluster research | [Git projects with pinned commits](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/06-git-projects.md) |
+| Structured data | JSON, 94 connector contacts and GPIO0–54 usage/conflicts | [Board JSON](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/data/board.json), [pin CSV](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/data/pinout.csv), [GPIO CSV](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/data/gpio-usage.csv) |
+| Next evidence needed | Board photos/markings, PoE setup, available equipment and a staged test plan | [Owner evidence checklist](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/07-evidence-checklist.md) |
 
-## Eigene Nachweise
+## Owner evidence
 
-Beide P4s meldeten Revision 1.3, 32 MiB Flash und 32 MiB PSRAM. Vor der damaligen Firmwareinstallation wurde der Flash vollständig lokal gesichert. Boot, PSRAM-Starttest, DHCP, Anwendungsverkehr über Ethernet, Modellablage und Textgenerierung einschließlich Zweierbetrieb sind dokumentiert. Normale spätere LAN-Updates wurden ebenfalls geprüft. Der Aufbau nutzte USB-C-Strom vom Rechner und Ethernet ohne PoE. Für diese Katalogaufnahme wurde kein Gerät neu ausgelesen oder verändert.
+Both P4s reported revision 1.3, 32 MiB flash and 32 MiB PSRAM. Flash was backed up locally before the earlier firmware installation. Boot, PSRAM startup test, DHCP, Ethernet application traffic, model storage and text generation including two-board operation are documented. Normal later LAN updates were also tested. The setup used computer USB-C power and Ethernet without PoE. Neither this catalog task nor its English translation accessed or modified the devices.
 
-Die vorhandene [öffentliche Hardware-Zusammenfassung der Forschung](https://github.com/Mcgee1704/esp32-p4-llm-cluster-research/blob/0675f8687b9459fafa4545587ef14aedd118187d/docs/HARDWARE.md) und lokale historische Inbetriebnahmeunterlagen sind die Grundlage. Der [bereinigte Detailstand](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/05-own-boards.md) nennt die Grenzen. Dies ist keine Live-Anzeige der momentan installierten Firmware.
+The existing [published research hardware summary](https://github.com/Mcgee1704/esp32-p4-llm-cluster-research/blob/0675f8687b9459fafa4545587ef14aedd118187d/docs/HARDWARE.md) and local historical bring-up records form the evidence basis. The [sanitized detailed record](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/05-own-boards.md) explains the limits. This is not a live display of installed firmware.
 
-## Wichtige Unterschiede und offene Punkte
+## Important differences and unresolved items
 
-- Der Schaltplan nennt C6-MINI-1-N4, die aktuelle Produktseite C6-MINI-1U-H8. Die konkrete C6-Bestückung der eigenen Exemplare bleibt offen.
-- Alte und neue Hersteller-Headerbilder zeigen linke/rechte Spalten vertauscht. Die Pinliste verwendet Schaltplannummern; physische Pin-1-Zuordnung am eigenen Board noch nicht bestätigt.
-- Die Hersteller-FAQ erlaubt USB-C plus PoE. Strombudget und Rückstromverhalten einer USB-A-zu-USB-C-Boardkette sind am eigenen Aufbau nicht abgenommen.
-- Platinenrevision, H5-Stellung, R12-Bestückung, PoE-Modul und Antenne sind noch zu erfassen.
-- WLAN/BLE, SD, Audio, Kamera, Display, USB-OTG-Anwendung, vollständige GPIO-Prüfung und Langzeitlast sind offen.
-- Reale Tests für P4-Revision 3.x, Originalflash-Wiederherstellung, absichtliche OTA-Unterbrechung und automatische Nachbarinstallation sind nicht bestätigt.
+- The schematic identifies C6-MINI-1-N4; the current product page identifies C6-MINI-1U-H8. The exact owner C6 assembly remains unresolved.
+- Old/new manufacturer header pictures show reversed left/right columns. Pin tables follow schematic numbering; physical pin-1 assignment has not been confirmed.
+- The manufacturer FAQ permits USB-C and PoE together. Current budget and reverse-current behaviour of a multi-board USB-A-to-USB-C chain remain unqualified on the owner setup.
+- PCB revision, H5 position, R12 population, PoE module and antenna need identification.
+- WLAN/BLE, SD, audio, camera, display, USB OTG application use, complete GPIO coverage and long-duration operation remain untested.
+- Physical revision-3.x testing, original-flash restoration, deliberate OTA interruption and automatic neighbour installation have not been established.
 
-## Quellen
+Start with the [identification photo list and setup questions](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/docs/07-evidence-checklist.md). Functional and electrical tests require their own suitable setup; catalog completeness does not require claiming that every function has been tested.
 
-Herstellerquellen am 30.10.2026 abgeglichen: [Boardübersicht](https://docs.waveshare.com/ESP32-P4-WIFI6-POE-ETH), [Schaltplan](https://files.waveshare.com/wiki/ESP32-P4-WIFI6-POE-ETH/ESP32-P4-WIFI6-POE-ETH-Schematic.pdf), [FAQ](https://docs.waveshare.com/ESP32-P4-WIFI6-POE-ETH/FAQ), [ESP-IDF-Anleitung](https://docs.waveshare.com/ESP32-P4-WIFI6-POE-ETH/ESP-IDF). Hashes, Revisionsunterschiede und Git-Commitstände stehen im [Quellenregister](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/sources/README.md).
+## Sources
 
-Der Katalog führt die Zusammenfassung und verweist für die vollständigen Tabellen auf das Board-Repository. MAC-Adressen, Seriennummern, Zugangsdaten, lokale Netzadressen, Flashsicherungen und Rohprotokolle bleiben privat.
+Manufacturer sources reviewed on 2026-10-30: [overview](https://docs.waveshare.com/ESP32-P4-WIFI6-POE-ETH), [schematic](https://files.waveshare.com/wiki/ESP32-P4-WIFI6-POE-ETH/ESP32-P4-WIFI6-POE-ETH-Schematic.pdf), [FAQ](https://docs.waveshare.com/ESP32-P4-WIFI6-POE-ETH/FAQ), [ESP-IDF instructions](https://docs.waveshare.com/ESP32-P4-WIFI6-POE-ETH/ESP-IDF). Hashes, revision differences and Git commits are in the [source register](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth/blob/main/sources/README.md).
 
-[Zurück zum Katalog](../README.md)
+This catalog summarizes the evidence and points to the board repository for complete tables. MAC addresses, serial numbers, credentials, local network addresses, flash backups and raw logs remain private.
+
+[Back to catalog](../README.md)

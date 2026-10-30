@@ -1,27 +1,27 @@
-# Board Katalog
+# Board Catalog
 
-Zentrale Übersicht unserer Boards und ihrer technischen Dokumentation. Jedes Modell erhält einen eigenen Eintrag mit eindeutigem Namen, Quellen und Erfassungsstand. Umfangreiche technische Unterlagen können in einem verlinkten Board-Repository liegen.
+Central index of our boards and their technical documentation. Each model has a dedicated entry with an exact name, sources and an evidence status. Detailed technical material is maintained in linked board repositories.
 
 ## Boards
 
-| Hersteller | Modell und Variante | Katalogeintrag | Technische Dokumentation |
+| Manufacturer | Model and variant | Catalog entry | Technical documentation |
 | --- | --- | --- | --- |
-| Waveshare | ESP32-S3-RS485-CAN-U | [Zum Eintrag](boards/waveshare-esp32-s3-rs485-can-u.md) | [Board-Repository](https://github.com/Mcgee1704/waveshare-esp32-s3-rs485-can-u) |
-| Waveshare | ESP32-P4-WIFI6-POE-ETH | [Zum Eintrag](boards/waveshare-esp32-p4-wifi6-poe-eth.md) | [Board-Repository](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth) |
+| Waveshare | ESP32-S3-RS485-CAN-U | [Entry](boards/waveshare-esp32-s3-rs485-can-u.md) | [Board repository](https://github.com/Mcgee1704/waveshare-esp32-s3-rs485-can-u) |
+| Waveshare | ESP32-P4-WIFI6-POE-ETH | [Entry](boards/waveshare-esp32-p4-wifi6-poe-eth.md) | [Board repository](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth) |
 
-## Neues Board aufnehmen
+## Adding a board
 
-1. [Board-Vorlage](templates/board.md) nach `boards/hersteller-modell-variante.md` kopieren. Dateinamen klein und mit Bindestrichen schreiben.
-2. Hersteller, exakte Variante und bekannte Platinenrevision eintragen. Unbekannte Angaben als „nicht erfasst“ kennzeichnen.
-3. Herstellerangaben und Beobachtungen am eigenen Exemplar getrennt dokumentieren. Quellen mit Link und Abrufdatum angeben; bei Git-Quellen möglichst einen Commit festhalten.
-4. Den Eintrag in der Übersicht ergänzen und auf das führende technische Repository verweisen, falls eines existiert.
+1. Copy the [board template](templates/board.md) to `boards/manufacturer-model-variant.md`. Use lowercase filenames with hyphens.
+2. Record manufacturer, exact variant and known PCB revision. Mark unknown values as “not recorded”.
+3. Separate manufacturer statements from observations on the physical board. Include source links and retrieval dates; pin Git sources to a commit where possible.
+4. Add the board to this index and link its primary technical repository if one exists.
 
-## Ablage und Erfassungsstand
+## Storage and evidence status
 
-- `boards/`: Ein Eintrag je Boardmodell und Variante. Mehrere eigene Exemplare werden im zugehörigen Eintrag ohne öffentliche Seriennummern unterschieden.
-- `templates/`: Einheitliche Vorlage für neue Einträge.
-- „Hersteller dokumentiert“ bedeutet eine belegte Angabe aus einer Quelle. „Am Exemplar bestätigt“ benötigt einen eigenen Sicht- oder Auslesenachweis. „Nicht erfasst“ bleibt ausdrücklich offen.
-- Bus- oder Gegenstellentests sind keine Voraussetzung für die Aufnahme. Wenn es welche gibt, werden sie separat beschrieben.
-- MAC-Adressen, Seriennummern, Zugangsdaten, private Flashabbilder und rohe Geräteprotokolle bleiben lokal. Originalunterlagen werden mit Quellen- und Lizenzangabe verlinkt; eine Veröffentlichung als Kopie erfordert passende Rechte.
+- `boards/`: one entry per model/variant. Multiple owner units are identified without public serial numbers.
+- `templates/`: a consistent template for new entries.
+- “Manufacturer documented” means a sourced specification. “Confirmed on the unit” requires a visual/readout/measurement record. “Not recorded” remains explicitly unresolved.
+- Bus or counterpart tests are optional for catalog inclusion. Existing functional tests are documented separately.
+- MAC addresses, serial numbers, credentials, private flash images and raw logs remain local. Link original documents with source/license information; redistributing copies requires suitable rights.
 
-Der Katalog ist eine Sammlung eigener technischer Notizen und Verweise, keine offizielle Veröffentlichung der jeweiligen Hersteller.
+This catalog is a collection of independent technical notes and links, not an official publication of the manufacturers.

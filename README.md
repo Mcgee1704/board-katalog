@@ -7,6 +7,7 @@ Zentrale Übersicht unserer Boards und ihrer technischen Dokumentation. Jedes Mo
 | Hersteller | Modell und Variante | Katalogeintrag | Technische Dokumentation |
 | --- | --- | --- | --- |
 | Waveshare | ESP32-S3-RS485-CAN-U | [Zum Eintrag](boards/waveshare-esp32-s3-rs485-can-u.md) | [Board-Repository](https://github.com/Mcgee1704/waveshare-esp32-s3-rs485-can-u) |
+| Waveshare | ESP32-P4-WIFI6-POE-ETH | [Zum Eintrag](boards/waveshare-esp32-p4-wifi6-poe-eth.md) | [Board-Repository](https://github.com/Mcgee1704/waveshare-esp32-p4-wifi6-poe-eth) |
 
 ## Neues Board aufnehmen
 
